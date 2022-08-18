@@ -12,7 +12,7 @@ public enum Perfil {
         this.descricao = descricao;
     }
 
-    private static Perfil toEnum(Integer cod) {
+    public static Perfil toEnum(Integer cod) {
         if (cod == null) {
             return null;
         }
